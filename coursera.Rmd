@@ -16,9 +16,9 @@ This App is intented to show the Medicare expenses per episode. Data was obtaine
 
 - Shiny Application : https://bvsrini.shinyapps.io/coursera/
 
-- GitHub Page       :
+- GitHub Page       : [Code](https://github.com/bvsrini/Data-Products/tree/master)
 
-- Presentation      :
+- Presentation      : http://rpubs.com/bvsrini/MedicareApp
 
 
 ### Instructions
