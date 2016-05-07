@@ -6,13 +6,12 @@ Patient](https://www.medicare.gov/hospitalcompare/Data/spending-per-hospital-pat
 For understanding of the terminology used in this app refer to the
 [Fact-Sheet-MSPB-Spending-Breakdowns-by-Claim-Type-Dec-2014.pdf](https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/hospital-value-based-purchasing/Downloads/Fact-Sheet-MSPB-Spending-Breakdowns-by-Claim-Type-Dec-2014.pdf)
 
-------------------------------------------------------------------------
-
 -   Shiny Application : <https://bvsrini.shinyapps.io/coursera/>
 
 -   GitHub Page :
+    [Code](https://github.com/bvsrini/Data-Products/tree/master)
 
--   Presentation :
+-   Presentation : <http://rpubs.com/bvsrini/MedicareApp>
 
 ### Instructions
 
@@ -121,18 +120,22 @@ For understanding of the terminology used in this app refer to the
         </tbody>
         </table>
 
-### Data Considerations and Processing
+### Calculations,Data Considerations and Processing
 
-1.  The Medicare spending data is computed based on the inputs entered
+1.  A comparative 4 point score is generated based on comparision of
+    state to Nation's average based on same categories. This helps in
+    comparison between state and nation's avareges.
+
+2.  The Medicare spending data is computed based on the inputs entered
     by the user as described above
 
-2.  For the "Summary" map tab, data for all the claim Types and Periods
+3.  For the "Summary" map tab, data for all the claim Types and Periods
     except "Complete Episode" and "Total" were not considered since the
     data desired is at an individual claim type and a Period. The "Avg
     Spending Per Episode (State)" was considered for the plot. Here the
     provider\_number was ignored.
 
-3.  For the "Heat Map" data for all the claim Types and Periods except
+4.  For the "Heat Map" data for all the claim Types and Periods except
     "Complete Episode" and "Total" were not considered since the data
     desired is at an individual claim type and a Period. The "Avg
     Spending Per Episode (Hosp)" was considered for the plot. Here the
